@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-image: url('https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/html-gradient-background-css.png?w=993&ssl=1'); */
+    background-color: black;
+    /* background-image: url('https://i.pinimg.com/736x/23/46/4d/23464d8f0242c40820fd1c410a20db0b.jpg'); */
+    background-image: url('https://i.pinimg.com/736x/a1/a1/8a/a1a18a76a6ece158a39bc966c83b2faa.jpg');
+    background-repeat: no-repeat;
+    /* background-image: url('https://i.pinimg.com/originals/56/36/9c/56369c64e80cc98d8ab2c1dfde5ef2ce.jpg'); */
+    overflow: visible;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-flex;
+    color: white;
+}
+
+.nav ul li {
+    width: 100px;
+    margin: 0px;
+    padding: 3px;
+}
+
+.nav ul li .img {
+    border-radius: 2px;
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(17, 98, 98);
+
+}
+
+.sub {
+    display: none;
+
+}
+
+.nav ul li:hover .sub {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.nav ul li:hover .sub ul {
+    display: block;
+    margin: 10px;
+
+
+}
+
+.nav ul li:hover .sub ul li {
+    border-bottom: 1px dotted floralwhite;
+    text-align: left;
+
+}
+
+.nav ul li:hover .sub ul li:last-child {
+    border-bottom: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Unbounded', cursive;
+    color: aliceblue;
+
+}
+.btn{
+    text-align: center;
+    margin-left: 400PX;
+    margin-top: 15px;
+}
+.par{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 50px;
+    margin-right: 65px;
+    background-color: rgba(0, 0, 0, 0.5);   
+}
